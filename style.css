@@ -6,3 +6,39 @@ body {
     width: 48px;
     height: 48px;
 }
+
+nav a {
+    text-decoration: none;
+    color:black;
+}
+
+nav a:hover {
+    color: #007437;
+  }
+
+#menu_navbar {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1.6px;
+}
+
+#recompenses_navbar {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1.6px;
+}
+
+#cartes_cadeaux_navbar {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1.6px;
+}

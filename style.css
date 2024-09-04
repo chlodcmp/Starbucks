@@ -7,6 +7,11 @@ body {
     height: 48px;
 }
 
+.position {
+    width: 14px;
+    height: 21px;
+}
+
 nav a {
     text-decoration: none;
     color:black;
@@ -23,6 +28,7 @@ nav a:hover {
     font-size: 14px;
     line-height: 21px;
     letter-spacing: 1.6px;
+    transition: 0.3s
 }
 
 #recompenses_navbar {
@@ -32,6 +38,7 @@ nav a:hover {
     font-size: 14px;
     line-height: 21px;
     letter-spacing: 1.6px;
+    transition: 0.3s
 }
 
 #cartes_cadeaux_navbar {
@@ -41,4 +48,58 @@ nav a:hover {
     font-size: 14px;
     line-height: 21px;
     letter-spacing: 1.6px;
+    transition: 0.3s
+}
+
+#trouver_magasin_navbar {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    transition: 0.3s
+}
+
+#button_connexion {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: transparent; 
+    border-radius: 35px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 28px;
+    padding-right: 28px;
+    transition: 0.3s
+
+}
+
+#button_connexion:hover {
+    background-color: rgb(217, 217, 217, 56);
+    cursor: pointer;
+}
+
+#button_membre {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: black; 
+    color: white;
+    border-style: none;
+    border-radius: 35px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 28px;
+    padding-right: 28px;
+    transition: 0.3s
+
+}
+
+#button_membre:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+#ligne_navbar {
+   color: rgb(110, 110, 110, 72);
+   shade
 }

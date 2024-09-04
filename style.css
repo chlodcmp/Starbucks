@@ -1,10 +1,12 @@
 body {
     background-color: white;
+    margin: 0px;
 }
 
 .logo_starbucks {
     width: 48px;
     height: 48px;
+    cursor: pointer;
 }
 
 .position {
@@ -14,6 +16,10 @@ body {
 
 nav {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 215px;
 }
 
 nav a {
@@ -101,4 +107,55 @@ nav a:hover {
 #button_membre:hover {
     background-color: rgba(0, 0, 0, 0.5);
     cursor: pointer;
+}
+
+#flex1 {
+    display: flex;
+    align-items: center;
+    margin-left: 56px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    gap: 56px;
+}
+
+#flex1_1 {
+    display: flex;
+}
+
+#flex1_2 {
+    display: flex;
+    gap: 32px;
+}
+
+#flex2 {
+    display: flex;
+    gap: 56px;
+    margin-right: 32px;
+    margin-bottom: 36px;
+    margin-top: 35px;
+}
+
+#flex2_1 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+#flex2_1_1 {
+    display: flex;
+}
+
+#flex2_1_2 {
+    display: flex;
+}
+
+#flex2_2 {
+    display: flex;
+    gap: 32px;
+}
+
+.trouvermagasin_flex {
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }

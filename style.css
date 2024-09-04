@@ -12,6 +12,10 @@ body {
     height: 21px;
 }
 
+nav {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
 nav a {
     text-decoration: none;
     color:black;
@@ -97,9 +101,4 @@ nav a:hover {
 #button_membre:hover {
     background-color: rgba(0, 0, 0, 0.5);
     cursor: pointer;
-}
-
-#ligne_navbar {
-   color: rgb(110, 110, 110, 72);
-   shade
 }

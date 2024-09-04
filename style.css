@@ -1,0 +1,145 @@
+body {
+    background-color: white;
+    margin: 0px;
+}
+
+.logo_starbucks {
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.position {
+    width: 14px;
+    height: 21px;
+}
+
+nav {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 215px;
+}
+
+nav a {
+    text-decoration: none;
+    color:black;
+}
+
+nav a:hover {
+    color: #007437;
+  }
+
+#menu_navbar {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1.6px;
+    transition: 0.3s
+}
+
+#recompenses_navbar {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1.6px;
+    transition: 0.3s
+}
+
+#cartes_cadeaux_navbar {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1.6px;
+    transition: 0.3s
+}
+
+#button_connexion {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: transparent; 
+    border-radius: 35px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 28px;
+    padding-right: 28px;
+    transition: 0.3s
+
+}
+
+#button_connexion:hover {
+    background-color: rgb(217, 217, 217, 56);
+    cursor: pointer;
+}
+
+#button_membre {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: black; 
+    color: white;
+    border-style: none;
+    border-radius: 35px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 28px;
+    padding-right: 28px;
+    transition: 0.3s
+
+}
+
+#button_membre:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.logo_btndroits_navbar {
+    display: flex;
+    align-items: center;
+    margin-left: 56px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    gap: 56px;
+}
+
+.logo_navbar {
+    display: flex;
+}
+
+.btndroits_navbar {
+    display: flex;
+    gap: 32px;
+}
+
+.magasins_btngauches_navbar {
+    display: flex;
+    gap: 56px;
+    margin-right: 32px;
+    margin-bottom: 36px;
+    margin-top: 35px;
+}
+
+.btngauches_navbar {
+    display: flex;
+    gap: 32px;
+}
+
+.trouvermagasin_btn {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    transition: 0.3s;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+}

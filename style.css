@@ -170,8 +170,22 @@ nav a:hover {
 }
 
 main img {
-    width: 720px;
-    height: 633px;
+    width: 50%;
+}
+
+.banner_test {
+    display: flex;
+    margin-top: 64px;
+}
+
+.text_banner_test {
+    background-color: #FFB000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 104px 96px 104px 96px;
 }
 
 h1 {
@@ -190,52 +204,22 @@ main p {
     margin-bottom: 32px;
 }
 
-main {
-    display: block;
-    justify-content: center;
-    align-items: center;
-}
-
-.banner {
-    display: flex;
-    /*flex-direction: row;
-    justify-content: center;
-    align-items: center;*/
-    margin-top: 48px;
-
-}
-
-.txt_ban1 {
-    background-color: #FFB000;
-    padding-left: 96.5px;
-    padding-right: 96.5px;
-    padding-top: 124px;
-    padding-bottom: 115px;
-    text-align: center;
-}
-
-.txt_ban2 {
+.bg_orange {
     background-color: #FF8200;
     color: white;
-    width: 721px;
-    text-align: center;
-    padding-left: 96.5px;
-    padding-right: 96.5px;
-    padding-top: 138px;
-    padding-bottom: 128px;
 }
 
-.txt_ban3 {
+.bg_pink {
     background-color: #FF6EA0;
     color: white;
-    width: 721px;
-    text-align: center;
-    padding-left: 96.5px;
-    padding-right: 96.5px;
-    padding-top: 138px;
-    padding-bottom: 128px;
 }
 
-.colorWhite {
+.bg_violet {
+    background-color: #C878DC;
+    color: white
+}
+
+.bg_green {
+    background-color: #00643C;
     color: white;
 }

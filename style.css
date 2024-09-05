@@ -61,11 +61,32 @@ nav a:hover {
     transition: 0.3s
 }
 
-#button_connexion {
+.buttonw_borderb {
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-size: 14px;
     background-color: transparent; 
+    border: black solid;
+    border-radius: 35px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 28px;
+    padding-right: 28px;
+    transition: 0.3s
+}
+
+.buttonw_borderb:hover {
+    background-color: rgba(12, 11, 11, 0.17);
+    cursor: pointer;
+}
+
+.buttonw_borderw {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    border: white solid;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: transparent;
     border-radius: 35px;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -75,8 +96,8 @@ nav a:hover {
 
 }
 
-#button_connexion:hover {
-    background-color: rgb(217, 217, 217, 56);
+.buttonw_borderw:hover {
+    background-color: rgba(12, 11, 11, 0.17);
     cursor: pointer;
 }
 
@@ -142,4 +163,102 @@ nav a:hover {
     justify-content: flex-start;
     align-items: center;
     gap: 8px;
+}
+
+.container {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+main img {
+    width: 50%;
+    max-width: 50%;
+}
+
+.banner_test {
+    display: flex;
+    margin-top: 64px;
+    max-height: 633px;
+}
+
+.text_banner_test {
+    background-color: #FFB000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 64px 120px 64px 120px;
+    gap: 12px;
+}
+
+h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 52px;
+    letter-spacing: 1.6px;
+    margin: 0;
+}
+
+main p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.bg_orange {
+    background-color: #FF8200;
+    color: white;
+}
+
+.bg_pink {
+    background-color: #FF6EA0;
+    color: white;
+}
+
+.bg_violet {
+    background-color: #C878DC;
+    color: white
+}
+
+.bg_green {
+    background-color: #00643C;
+    color: white;
+}
+
+form p {
+    display: flex;
+    flex-direction: column;
+    /*gap: 12px*/
+}
+
+label {
+    text-align: justify;
+}
+
+#email {
+    background-color: #004127;
+    border-radius: 35px;
+    border-style: none;
+    height: 40px;
+    width: 320px;
+    caret-color: white;
+    text-indent: 15px;
+}
+.txt_legal p {
+    font-size: 14px;
+    font-weight: 530;
+    gap: 12px;
+}
+.txt_legal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 104px 172px 104px 172px;
+    padding-bottom: 104px;
+}
+
+main {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }

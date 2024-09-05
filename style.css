@@ -66,6 +66,7 @@ nav a:hover {
     font-weight: 600;
     font-size: 14px;
     background-color: transparent; 
+    border: black solid;
     border-radius: 35px;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -82,10 +83,10 @@ nav a:hover {
 .buttonw_borderw {
     font-family: "Open Sans", sans-serif;
     color: white;
+    border: white solid;
     font-weight: 600;
     font-size: 14px;
-    background-color: transparent; 
-    border-color: white;
+    background-color: transparent;
     border-radius: 35px;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -171,11 +172,13 @@ nav a:hover {
 
 main img {
     width: 50%;
+    max-width: 50%;
 }
 
 .banner_test {
     display: flex;
     margin-top: 64px;
+    max-height: 633px;
 }
 
 .text_banner_test {
@@ -185,23 +188,22 @@ main img {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 104px 96px 104px 96px;
+    padding: 64px 120px 64px 120px;
+    gap: 12px;
 }
 
-h1 {
+h2 {
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-size: 52px;
     letter-spacing: 1.6px;
-    line-height: 60px;
-    margin-bottom: 32px;
+    margin: 0;
 }
 
 main p {
     font-family: "Open Sans", sans-serif;
     font-size: 24px;
     line-height: 36px;
-    margin-bottom: 32px;
 }
 
 .bg_orange {
@@ -222,4 +224,41 @@ main p {
 .bg_green {
     background-color: #00643C;
     color: white;
+}
+
+form p {
+    display: flex;
+    flex-direction: column;
+    /*gap: 12px*/
+}
+
+label {
+    text-align: justify;
+}
+
+#email {
+    background-color: #004127;
+    border-radius: 35px;
+    border-style: none;
+    height: 40px;
+    width: 320px;
+    caret-color: white;
+    text-indent: 15px;
+}
+.txt_legal p {
+    font-size: 14px;
+    font-weight: 530;
+    gap: 12px;
+}
+.txt_legal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 104px 172px 104px 172px;
+    padding-bottom: 104px;
+}
+
+main {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }

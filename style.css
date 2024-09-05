@@ -61,7 +61,7 @@ nav a:hover {
     transition: 0.3s
 }
 
-#button_connexion {
+.buttonw_borderb {
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-size: 14px;
@@ -72,11 +72,31 @@ nav a:hover {
     padding-left: 28px;
     padding-right: 28px;
     transition: 0.3s
+}
+
+.buttonw_borderb:hover {
+    background-color: rgba(12, 11, 11, 0.17);
+    cursor: pointer;
+}
+
+.buttonw_borderw {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: transparent; 
+    border-color: white;
+    border-radius: 35px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 28px;
+    padding-right: 28px;
+    transition: 0.3s
 
 }
 
-#button_connexion:hover {
-    background-color: rgb(217, 217, 217, 56);
+.buttonw_borderw:hover {
+    background-color: rgba(12, 11, 11, 0.17);
     cursor: pointer;
 }
 
@@ -142,4 +162,80 @@ nav a:hover {
     justify-content: flex-start;
     align-items: center;
     gap: 8px;
+}
+
+.container {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+main img {
+    width: 720px;
+    height: 633px;
+}
+
+h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 52px;
+    letter-spacing: 1.6px;
+    line-height: 60px;
+    margin-bottom: 32px;
+}
+
+main p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 32px;
+}
+
+main {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    display: flex;
+    /*flex-direction: row;
+    justify-content: center;
+    align-items: center;*/
+    margin-top: 48px;
+
+}
+
+.txt_ban1 {
+    background-color: #FFB000;
+    padding-left: 96.5px;
+    padding-right: 96.5px;
+    padding-top: 124px;
+    padding-bottom: 115px;
+    text-align: center;
+}
+
+.txt_ban2 {
+    background-color: #FF8200;
+    color: white;
+    width: 721px;
+    text-align: center;
+    padding-left: 96.5px;
+    padding-right: 96.5px;
+    padding-top: 138px;
+    padding-bottom: 128px;
+}
+
+.txt_ban3 {
+    background-color: #FF6EA0;
+    color: white;
+    width: 721px;
+    text-align: center;
+    padding-left: 96.5px;
+    padding-right: 96.5px;
+    padding-top: 138px;
+    padding-bottom: 128px;
+}
+
+.colorWhite {
+    color: white;
 }

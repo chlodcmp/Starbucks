@@ -308,11 +308,17 @@ footer hr {
     border: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     margin-bottom: 32px;
+    margin-top: 32px;
 }
 
 .fotter_end {
     display: grid;
     grid-template-columns: 180px 20px 180px 20px 380px 20px 118px 20px 118px;
+    margin-top: 32px;
+}
+
+footer img {
+    text-align: start;
 }
 
 .buttons_end_footer{
@@ -340,4 +346,13 @@ footer hr {
     margin-top: 16px;
     margin-bottom: 16px;
 
+}
+
+.img_rs {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 50px;
+    height: 50px;
+    gap: 8px;
 }

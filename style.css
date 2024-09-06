@@ -348,11 +348,16 @@ footer img {
 
 }
 
-.img_rs {
+.imgs_rs {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     width: 50px;
     height: 50px;
     gap: 8px;
+}
+
+.img_rs:hover {
+    box-shadow: 1px -1px 0px 8px rgba(212, 211, 211, 1);
+    border-radius: 50px;
 }
